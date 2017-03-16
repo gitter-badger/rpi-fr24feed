@@ -6,6 +6,8 @@ Which has the purpose of configuring a homemade FlightRadar24 server using a Ras
 
 ## How to use this Docker image?
 
+[![Join the chat at https://gitter.im/rpi-fr24feed/Lobby](https://badges.gitter.im/rpi-fr24feed/Lobby.svg)](https://gitter.im/rpi-fr24feed/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 As this image already has DVB-T drivers & dump1090 software installed, we can just execute FR24 software using something like:
 
 ```docker run -d --device=/dev/bus/usb -e FR24_KEY=xxyyzz --privileged nicosingh/rpi-fr24feed```
